@@ -19,7 +19,6 @@ on:
 jobs:
   build-iso:
     runs-on: macos-latest
-    if: github.repository == 'aceberle/Download-macOS'
     steps:
       - uses: actions/checkout@v3
 
